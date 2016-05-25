@@ -1,4 +1,4 @@
-package com.samsudar.todayinputter.logic;
+package com.samsudar.todaykey.logic;
 
 import java.text.SimpleDateFormat;
 import java.util.Calendar;

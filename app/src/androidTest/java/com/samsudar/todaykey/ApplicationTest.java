@@ -1,4 +1,4 @@
-package com.samsudar.todayinputter;
+package com.samsudar.todaykey;
 
 import android.app.Application;
 import android.test.ApplicationTestCase;

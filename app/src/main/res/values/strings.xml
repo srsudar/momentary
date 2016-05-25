@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Today Inputter</string>
+    <string name="app_name">Today Key</string>
     
   <!-- Strings related to Settings -->
   <string name="pref_header_general">General</string>
