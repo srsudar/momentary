@@ -65,7 +65,7 @@ public class SettingsActivity extends PreferenceActivity {
    */
   @TargetApi(Build.VERSION_CODES.HONEYCOMB)
   public static class GeneralPreferenceFragment extends PreferenceFragment {
-    private static final String PREF_DELIMITER_KEY = "pref_delimiter";
+    public static final String PREF_DELIMITER_KEY = "pref_delimiter";
 
     @Override
     public void onCreate(Bundle savedInstanceState) {

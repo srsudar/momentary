@@ -3,6 +3,7 @@ package com.samsudar.todayinputter;
 import android.content.Context;
 import android.inputmethodservice.InputMethodService;
 import android.os.IBinder;
+import android.preference.PreferenceManager;
 import android.view.View;
 import android.view.inputmethod.EditorInfo;
 import android.view.inputmethod.InputMethodManager;
@@ -11,17 +12,25 @@ import com.samsudar.todayinputter.logic.DateFormatter;
 
 public class InputTodayIME extends InputMethodService {
   private DateFormatter formatter;
+  private String delimiterKey;
+  private String defaultDelimiter;
 
   @Override
   public void onCreate() {
     super.onCreate();
     formatter = new DateFormatter();
+    delimiterKey = this.getString(R.string.pref_key_delimiter);
+    defaultDelimiter = this.getString(R.string.pref_default_delimiter);
   }
 
   @Override
   public void onStartInput(EditorInfo info, boolean restarting) {
     // 1 to position at the end of the entered text
-    getCurrentInputConnection().commitText(formatter.getFriendlyDate(), 1);
+    String delimiter = PreferenceManager.getDefaultSharedPreferences(this)
+        .getString(delimiterKey, defaultDelimiter);
+
+    getCurrentInputConnection().commitText(
+        formatter.getFriendlyDate(delimiter), 1);
     returnToLastInputMethod();
   }
 

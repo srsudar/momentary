@@ -9,4 +9,6 @@
 
   <string name="subtype_en_US">English (US)</string>
 
+  <string name="pref_key_delimiter">pref_delimiter</string>
+
 </resources>
