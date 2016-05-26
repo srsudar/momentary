@@ -20,8 +20,7 @@ When you select Momentary as the input method, it enters today's date and
 immediately returns to the previous input method. It takes just a moment.
 
 <p align="center">
-    <img alt="Momentary at work" src="assets/2016-05-25_demo.gif" style="width:
-    300px;">
+    <img alt="Momentary at work" src="assets/2016-05-25_demo.gif" style="width: 300px;">
 </p>
 
 
