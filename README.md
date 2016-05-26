@@ -28,7 +28,7 @@ immediately returns to the previous input method. It takes just a moment.
 
 Momentary is available on [Google
 Play](https://play.google.com/store/apps/details?id=com.samsudar.momentary) as
-well as on [in the `assets/` folder](assets/momentary_v1-0.apk).
+well as [in the `assets/` folder](assets/).
 
 
 ## Format and Customization
