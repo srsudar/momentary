@@ -1,4 +1,4 @@
-package com.samsudar.todaykey;
+package com.samsudar.momentary;
 
 import android.content.res.Configuration;
 import android.os.Bundle;

@@ -1,4 +1,4 @@
-package com.samsudar.todaykey;
+package com.samsudar.momentary;
 
 
 import android.annotation.TargetApi;
@@ -69,7 +69,7 @@ public class SettingsActivity extends AppCompatPreferenceActivity {
     @Override
     public void onCreate(Bundle savedInstanceState) {
       super.onCreate(savedInstanceState);
-      addPreferencesFromResource(com.samsudar.todaykey.R.xml.pref_general);
+      addPreferencesFromResource(com.samsudar.momentary.R.xml.pref_general);
       setHasOptionsMenu(true);
 
       // Bind the summaries of EditText/List/Dialog/Ringtone preferences

@@ -1,8 +1,5 @@
 <resources>
-    <string name="app_name">Today Key</string>
-    
-  <!-- Strings related to Settings -->
-  <string name="pref_header_general">General</string>
+    <string name="app_name">Momentary</string>
 
   <string name="pref_delimiter_label">Delimiter (not escaped)</string>
   <string name="pref_default_delimiter">-</string>

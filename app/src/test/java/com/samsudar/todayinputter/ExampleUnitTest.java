@@ -1,4 +1,4 @@
-package com.samsudar.todaykey;
+package com.samsudar.momentary;
 
 import org.junit.Test;
 

@@ -1,4 +1,4 @@
-package com.samsudar.todaykey;
+package com.samsudar.momentary;
 
 import android.content.Context;
 import android.inputmethodservice.InputMethodService;
@@ -8,7 +8,7 @@ import android.view.View;
 import android.view.inputmethod.EditorInfo;
 import android.view.inputmethod.InputMethodManager;
 
-import com.samsudar.todaykey.logic.DateFormatter;
+import com.samsudar.momentary.logic.DateFormatter;
 
 public class TodayKeyInputService extends InputMethodService {
   private DateFormatter formatter;
@@ -19,8 +19,8 @@ public class TodayKeyInputService extends InputMethodService {
   public void onCreate() {
     super.onCreate();
     formatter = new DateFormatter();
-    delimiterKey = this.getString(com.samsudar.todaykey.R.string.pref_key_delimiter);
-    defaultDelimiter = this.getString(com.samsudar.todaykey.R.string.pref_default_delimiter);
+    delimiterKey = this.getString(com.samsudar.momentary.R.string.pref_key_delimiter);
+    defaultDelimiter = this.getString(com.samsudar.momentary.R.string.pref_default_delimiter);
   }
 
   @Override
