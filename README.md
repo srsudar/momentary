@@ -12,7 +12,7 @@
 [Momentary](https://play.google.com/store/apps/details?id=com.samsudar.momentary)
 is an Android keyboard with one function: entering today's date. I find myself
 entering today's date multiple times a day when I'm using my phone.  Under
-normal circumstances this is a pain to type. `2016-05-25`, for examle, is at
+normal circumstances this is a pain to type. `2016-05-25`, for example, is at
 least 10 clicks, and this is even worse if you're relying on long presses.
 
 Momentary to the rescue!
@@ -28,7 +28,7 @@ immediately returns to the previous input method. It takes just a moment.
 
 Momentary is available on [Google
 Play](https://play.google.com/store/apps/details?id=com.samsudar.momentary) as
-well as [in the `assets/` folder](assets/).
+well as [on my website](https://samsudar.com/static/bin/momentary_v1-0.apk).
 
 
 ## Format and Customization
